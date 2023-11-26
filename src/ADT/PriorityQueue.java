@@ -11,7 +11,7 @@ import java.util.Comparator;
 
 /**
  *
- * @author Salvo Catanese
+ * @author salvo
  */
 
 public class PriorityQueue<T> {

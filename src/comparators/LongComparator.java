@@ -9,7 +9,7 @@ import java.util.Comparator;
 
 /**
  *
- * @author Salvo
+ * @author salvo
  */
 
 public class LongComparator implements Comparator<Long> {

@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 /**
  *
- * @author Salvo
+ * @author salvo
  */
 public class DefaultComparator<T> implements Comparator <T>{
 

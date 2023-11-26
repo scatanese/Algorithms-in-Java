@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 public class FloatComparator implements Comparator<Float> {
 
-	@Override
+@Override
   public int compare(Float o1, Float o2) {
     if(o1 > o2){
       return 1;

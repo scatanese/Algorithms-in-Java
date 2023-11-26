@@ -7,7 +7,7 @@ package ADT;
 
 /**
  *
- * @author Salvo Catanese
+ * @author salvo
  */
 public class LinkedStack<T> {
     private Node<T> top;

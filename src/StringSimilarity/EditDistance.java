@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author salvo catanese
+ * @author salvo
  */
 
 public class EditDistance {

@@ -7,7 +7,7 @@ package ADT;
 
 /**
  *
- * @author salvo catanese
+ * @author salvo
  */
 
 public class ArrayStack<T> {
