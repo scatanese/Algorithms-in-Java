@@ -5,5 +5,5 @@ Algorithms and data structures exercises, degree course in computer science Poly
 
 ## Siti di riferimento
 
-[The Algorithms](https://github.com/TheAlgorithms)
-[Robert Sedgewick](https://algs4.cs.princeton.edu/home/)
+- [The Algorithms](https://github.com/TheAlgorithms)
+- [Robert Sedgewick](https://algs4.cs.princeton.edu/home/)
