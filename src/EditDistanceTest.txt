@@ -1,0 +1,103 @@
+***
+Source casa to Target cassa
+
+Recursive
+ ### Edit Distance: 1
+
+Dynamic programming
+ ### Edit Distance: 1
+
+Distance Matrix: 
+		c	a	s	s	a	
+	0	1	2	3	4	5	
+c	1	0	1	2	3	4	
+a	2	1	0	1	2	3	
+s	3	2	1	0	1	2	
+a	4	3	2	1	2	1	
+
+
+Backward path:	(4, 5)(3, 4)(3, 3)(2, 2)(1, 1)
+Edit Sequence:	NNNIN
+Source:			cas-a
+Equals:			||| |
+Target:			cassa
+
+
+***
+Source casa to Target cara
+
+Recursive
+ ### Edit Distance: 2
+
+Dynamic programming
+ ### Edit Distance: 2
+
+Distance Matrix: 
+		c	a	r	a	
+	0	1	2	3	4	
+c	1	0	1	2	3	
+a	2	1	0	1	2	
+s	3	2	1	2	3	
+a	4	3	2	3	2	
+
+
+Backward path:	(4, 4)(3, 3)(2, 3)(2, 2)(1, 1)
+Edit Sequence:	NNIDN
+Source:			ca-sa
+Equals:			||  |
+Target:			car-a
+
+
+***
+Source tassa to Target passato
+
+Recursive
+ ### Edit Distance: 4
+
+Dynamic programming
+ ### Edit Distance: 4
+
+Distance Matrix: 
+		p	a	s	s	a	t	o	
+	0	1	2	3	4	5	6	7	
+t	1	2	3	4	5	6	5	6	
+a	2	3	2	3	4	5	6	7	
+s	3	4	3	2	3	4	5	6	
+s	4	5	4	3	2	3	4	5	
+a	5	6	5	4	3	2	3	4	
+
+
+Backward path:	(5, 7)(5, 6)(5, 5)(4, 4)(3, 3)(2, 2)(1, 1)(0, 1)
+Edit Sequence:	IDNNNNII
+Source:			-tassa--
+Equals:			  ||||  
+Target:			p-assato
+
+
+***
+Source pioppo to Target pioppo
+
+Recursive
+ ### Edit Distance: 0
+
+Dynamic programming
+ ### Edit Distance: 0
+
+Distance Matrix: 
+		p	i	o	p	p	o	
+	0	1	2	3	4	5	6	
+p	1	0	1	2	3	4	5	
+i	2	1	0	1	2	3	4	
+o	3	2	1	0	1	2	3	
+p	4	3	2	1	0	1	2	
+p	5	4	3	2	1	0	1	
+o	6	5	4	3	2	1	0	
+
+
+Backward path:	(6, 6)(5, 5)(4, 4)(3, 3)(2, 2)(1, 1)
+Edit Sequence:	NNNNNN
+Source:			pioppo
+Equals:			||||||
+Target:			pioppo
+
+

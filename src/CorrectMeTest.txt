@@ -1,0 +1,107 @@
+Load [data/correctme.txt]
+### 49 key loaded in: 67 millisec 
+
+Load [data/dictionary.txt]
+### 661562 key loaded in: 324 millisec 
+
+### START Edit Distance algorithm:
+Input: Quando
+Matches: quando(0) 
+Input: avevo
+Matches: avevo(0) 
+Input: cinqve
+Matches: cinque(2) cive(2) 
+Input: anni
+Matches: anni(0) 
+Input: mia
+Matches: mia(0) 
+Input: made
+Matches: made(0) 
+Input: mi
+Matches: mi(0) 
+Input: perpeteva
+Matches: erpete(3) permetteva(3) perpendeva(3) perpetra(3) perpetrava(3) perpetrera(3) perpetua(3) perpetuava(3) perpetue(3) perpetuera(3) repeteva(3) ripeteva(3) 
+Input: sempre
+Matches: sempre(0) 
+Input: che
+Matches: che(0) 
+Input: la
+Matches: la(0) 
+Input: felicita
+Matches: felicita(0) 
+Input: e
+Matches: e(0) 
+Input: la
+Matches: la(0) 
+Input: chiave
+Matches: chiave(0) 
+Input: della
+Matches: della(0) 
+Input: vita
+Matches: vita(0) 
+Input: Quando
+Matches: quando(0) 
+Input: andai
+Matches: andai(0) 
+Input: a
+Matches: a(0) 
+Input: squola
+Matches: suola(1) 
+Input: mi
+Matches: mi(0) 
+Input: domandrono
+Matches: domandarono(1) 
+Input: come
+Matches: come(0) 
+Input: vuolessi
+Matches: volessi(1) 
+Input: essere
+Matches: essere(0) 
+Input: da
+Matches: da(0) 
+Input: grande
+Matches: grande(0) 
+Input: Io
+Matches: io(0) 
+Input: scrissi
+Matches: scrissi(0) 
+Input: selice
+Matches: selice(0) 
+Input: Mi
+Matches: mi(0) 
+Input: dissero
+Matches: dissero(0) 
+Input: che
+Matches: che(0) 
+Input: non
+Matches: non(0) 
+Input: avevo
+Matches: avevo(0) 
+Input: capito
+Matches: capito(0) 
+Input: il
+Matches: il(0) 
+Input: corpito
+Matches: carpito(2) clorito(2) coito(2) colpito(2) compito(2) copiato(2) copio(2) copto(2) corio(2) corpi(2) corpino(2) corpo(2) corto(2) covrito(2) crepito(2) scorpio(2) 
+Input: e
+Matches: e(0) 
+Input: io
+Matches: io(0) 
+Input: dissi
+Matches: dissi(0) 
+Input: loro
+Matches: loro(0) 
+Input: che
+Matches: che(0) 
+Input: non
+Matches: non(0) 
+Input: avevano
+Matches: avevano(0) 
+Input: capito
+Matches: capito(0) 
+Input: la
+Matches: la(0) 
+Input: wita
+Matches: aita(2) cita(2) dita(2) gita(2) iota(2) irta(2) ista(2) iuta(2) lita(2) pita(2) sita(2) ta(2) vita(2) witz(2) zita(2) 
+### END in: 123452 millisec 
+
