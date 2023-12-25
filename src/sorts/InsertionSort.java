@@ -72,13 +72,13 @@ public class InsertionSort {
     
     public static void main(String[] args) {
 		 
-		Integer a[] = {4, 6, 3, 5, 2, 9, 11, 9};
-		IntegerComparator intcomp = new IntegerComparator();
-		InsertionSort.sort(a, intcomp);		
+	Integer a[] = {4, 6, 3, 5, 2, 9, 11, 9};
+	IntegerComparator intcomp = new IntegerComparator();
+	InsertionSort.sort(a, intcomp);		
 		
-		InsertionSort.printArray(a);
-		InsertionSort.sort(a);
-		InsertionSort.printArray(a);
+	InsertionSort.printArray(a);
+	InsertionSort.sort(a);
+	InsertionSort.printArray(a);
 	}
 	
 }
